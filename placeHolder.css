@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "antipasto";
+    src: url(AntipastoPro-Medium_trial.ttf);
+}
+
+
+
+h1{ font-family: "antipasto";}
+p{ font-family: "antipasto";}
+
+.textBox{
+
+    width: 800px;
+    height: 300px;
+  
+    margin: auto;
+  
+    
+
+    border: #777eac solid;  
+  
+    border-radius: 10px;
+  
+    text-align: center;
+  
+    font-size: xx-large;
+}
+
+.color{
+
+    color: #777eac;
+}
+
+
+
+.rectangle{
+
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    rotate: 50deg;
+
+    margin-top: 80px;
+    margin-left: 30px;
+
+    background-color: #777eac;
+
+
+}
+
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 20px solid #777eac;
+    margin: auto;
+}
